@@ -97,7 +97,7 @@ public class Pong implements ActionListener, KeyListener {
     }
 
     public void render(Graphics2D g) {
-        g.setColor(Color.BLACK);
+        g.setColor(Color.GRAY);
         g.fillRect(0, 0, width, height);
         g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         if (gameStatus == 0) {
